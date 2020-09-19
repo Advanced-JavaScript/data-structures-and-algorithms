@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1600528732059" clover="3.2.0">
-  <project timestamp="1600528732060" name="All files">
-    <metrics statements="214" coveredstatements="209" conditionals="86" coveredconditionals="78" methods="30" coveredmethods="30" elements="330" coveredelements="317" complexity="0" loc="214" ncloc="214" packages="7" files="7" classes="7"/>
+<coverage generated="1600532398427" clover="3.2.0">
+  <project timestamp="1600532398427" name="All files">
+    <metrics statements="236" coveredstatements="231" conditionals="100" coveredconditionals="92" methods="31" coveredmethods="31" elements="367" coveredelements="354" complexity="0" loc="236" ncloc="236" packages="8" files="8" classes="8"/>
     <package name="Data-Structures.linkedList">
       <metrics statements="63" coveredstatements="63" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10"/>
       <file name="linked-list.js" path="/mnt/c/Users/ashjan/ltuc/401/data-structures-and-algorithms/Data-Structures/linkedList/linked-list.js">
@@ -72,26 +72,26 @@
       </file>
     </package>
     <package name="Data-Structures.stacksAndQueues">
-      <metrics statements="42" coveredstatements="37" conditionals="18" coveredconditionals="12" methods="11" coveredmethods="11"/>
+      <metrics statements="42" coveredstatements="38" conditionals="18" coveredconditionals="13" methods="11" coveredmethods="11"/>
       <file name="stacks-and-queues.js" path="/mnt/c/Users/ashjan/ltuc/401/data-structures-and-algorithms/Data-Structures/stacksAndQueues/stacks-and-queues.js">
-        <metrics statements="42" coveredstatements="37" conditionals="18" coveredconditionals="12" methods="11" coveredmethods="11"/>
-        <line num="9" count="56" type="stmt"/>
-        <line num="10" count="56" type="stmt"/>
-        <line num="21" count="19" type="stmt"/>
-        <line num="25" count="41" type="stmt"/>
-        <line num="26" count="41" type="stmt"/>
-        <line num="27" count="41" type="stmt"/>
-        <line num="32" count="29" type="cond" truecount="2" falsecount="0"/>
-        <line num="33" count="15" type="stmt"/>
-        <line num="34" count="15" type="stmt"/>
-        <line num="35" count="14" type="cond" truecount="1" falsecount="1"/>
-        <line num="36" count="14" type="stmt"/>
-        <line num="37" count="14" type="stmt"/>
+        <metrics statements="42" coveredstatements="38" conditionals="18" coveredconditionals="13" methods="11" coveredmethods="11"/>
+        <line num="9" count="74" type="stmt"/>
+        <line num="10" count="74" type="stmt"/>
+        <line num="21" count="27" type="stmt"/>
+        <line num="25" count="59" type="stmt"/>
+        <line num="26" count="59" type="stmt"/>
+        <line num="27" count="59" type="stmt"/>
+        <line num="32" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="16" type="stmt"/>
+        <line num="34" count="16" type="stmt"/>
+        <line num="35" count="29" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="29" type="stmt"/>
+        <line num="37" count="29" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
-        <line num="41" count="29" type="stmt"/>
-        <line num="45" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <line num="41" count="45" type="stmt"/>
+        <line num="45" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="17" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
         <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="53" count="0" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
@@ -116,7 +116,7 @@
         <line num="103" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="104" count="1" type="stmt"/>
         <line num="106" count="1" type="stmt"/>
-        <line num="109" count="2" type="stmt"/>
+        <line num="109" count="3" type="stmt"/>
       </file>
     </package>
     <package name="code-challenges.arrayBinarySearch">
@@ -236,6 +236,34 @@
         <line num="25" count="3" type="stmt"/>
         <line num="27" count="3" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="code-challenges.multiBracketValidation">
+      <metrics statements="22" coveredstatements="21" conditionals="14" coveredconditionals="13" methods="1" coveredmethods="1"/>
+      <file name="multi-bracket-validation.js" path="/mnt/c/Users/ashjan/ltuc/401/data-structures-and-algorithms/code-challenges/multiBracketValidation/multi-bracket-validation.js">
+        <metrics statements="22" coveredstatements="21" conditionals="14" coveredconditionals="13" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="72" type="stmt"/>
+        <line num="23" count="72" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="18" type="stmt"/>
+        <line num="27" count="72" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="16" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
       </file>
     </package>
     <package name="code-challenges.queueWithStacks">
