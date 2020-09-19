@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1600516521682" clover="3.2.0">
-  <project timestamp="1600516521682" name="All files">
-    <metrics statements="169" coveredstatements="164" conditionals="64" coveredconditionals="56" methods="27" coveredmethods="27" elements="260" coveredelements="247" complexity="0" loc="169" ncloc="169" packages="6" files="6" classes="6"/>
+<coverage generated="1600528732059" clover="3.2.0">
+  <project timestamp="1600528732060" name="All files">
+    <metrics statements="214" coveredstatements="209" conditionals="86" coveredconditionals="78" methods="30" coveredmethods="30" elements="330" coveredelements="317" complexity="0" loc="214" ncloc="214" packages="7" files="7" classes="7"/>
     <package name="Data-Structures.linkedList">
       <metrics statements="63" coveredstatements="63" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10"/>
       <file name="linked-list.js" path="/mnt/c/Users/ashjan/ltuc/401/data-structures-and-algorithms/Data-Structures/linkedList/linked-list.js">
         <metrics statements="63" coveredstatements="63" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10"/>
-        <line num="5" count="48" type="stmt"/>
-        <line num="6" count="48" type="stmt"/>
+        <line num="5" count="77" type="stmt"/>
+        <line num="6" count="77" type="stmt"/>
         <line num="12" count="28" type="stmt"/>
         <line num="16" count="16" type="stmt"/>
         <line num="17" count="16" type="stmt"/>
@@ -68,7 +68,7 @@
         <line num="109" count="3" type="stmt"/>
         <line num="110" count="1" type="stmt"/>
         <line num="112" count="3" type="stmt"/>
-        <line num="117" count="2" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
       </file>
     </package>
     <package name="Data-Structures.stacksAndQueues">
@@ -160,6 +160,57 @@
         <line num="22" count="5" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="code-challenges.fifoAnimalShelter">
+      <metrics statements="45" coveredstatements="45" conditionals="22" coveredconditionals="22" methods="3" coveredmethods="3"/>
+      <file name="fifo-animal-shelter.js" path="/mnt/c/Users/ashjan/ltuc/401/data-structures-and-algorithms/code-challenges/fifoAnimalShelter/fifo-animal-shelter.js">
+        <metrics statements="45" coveredstatements="45" conditionals="22" coveredconditionals="22" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="12" count="30" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="29" type="stmt"/>
+        <line num="16" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="22" type="stmt"/>
+        <line num="19" count="29" type="stmt"/>
+        <line num="20" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="26" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="59" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
       </file>
     </package>
     <package name="code-challenges.llZip">
