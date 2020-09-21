@@ -11,6 +11,9 @@ This repository contains the daily challenges of the 301, 401 courses.
 - [ArrayBinarySearch](./code-challenges/arrayBinarySearch/README.md)
 - [Fibonacci](./code-challenges/fibonacci/README.md)
 - [LinkedList Zip](./code-challenges/llZip/README.md)
+- [Queue With Stacks](./code-challenges/queueWithStacks/README.md)
+- [Fifo Animal Shelter](./code-challenges/fifoAnimalShelter/README.md)
+
 
 ## Data Structures
 
