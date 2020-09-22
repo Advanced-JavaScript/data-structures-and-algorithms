@@ -10,7 +10,6 @@ const multiBracketValidation = str => {
   const st = new Stack();
   const opener = /[([{]/g;
   const closer = /[)\]}]/g;
-
   const matchers = {
     '(': ')',
     '[': ']',

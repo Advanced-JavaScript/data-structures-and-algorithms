@@ -3,6 +3,7 @@
 const multiBracketValidation = require('./multi-bracket-validation.js');
 
 describe('multiBracketValidation function', () => {
+  
   it('should return null for an argument that is not a string', () => {
     const str = 0;
     expect(multiBracketValidation(str)).toBeNull();
