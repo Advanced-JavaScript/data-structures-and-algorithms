@@ -47,6 +47,17 @@ class BinaryTree {
     return output;
   }
 
+  findMaximumValue(){
+    let max = this.root.value;
+    const _max = (node) => {
+      max =node.value>max ?node.value:max;
+      if (node.left) _max(node.left);
+      if (node.right) _max(node.right);
+    };
+    _max(this.root);
+    return max;
+  }
+
 }
 
 class BinarySearchTree extends BinaryTree {

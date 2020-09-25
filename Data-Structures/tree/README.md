@@ -29,6 +29,8 @@ It also has a method named contains that accepts a value, and returns a boolean 
 - inOrder(): traverses tree in the order of left, root, right
 - postOrder(): traverses tree in the order of left, right, root
 
+- findMaximumValue(): returns the maximum value in the whole tree.
+
 ### Binary Search Tree
 
 - add(): adds a node to the BST containing a given value (further left for smaller and right for larger values)
@@ -42,7 +44,13 @@ It also has a method named contains that accepts a value, and returns a boolean 
 - add(): O(h), where h = tree height (worst case O(n))
 - contains(): O(h), where h = tree height (worst case O(n))
 
+- findMaximumValue(): O(n)
+
 
 ## Whiteboard
 
 ![](../../assets/Tree.png)
+
+- findMaximumValue method
+
+![](../../assets/maxTree.JPG)
