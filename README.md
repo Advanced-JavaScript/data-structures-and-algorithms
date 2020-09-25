@@ -20,6 +20,7 @@ This repository contains the daily challenges of the 301, 401 courses.
 
 - [LinkedList](./Data-Structures/linkedList/README.md)
 - [Stacks&Queues](./Data-Structures/stacksAndQueues/README.md)
+- [Tree](./Data-Structures/tree/README.md)
 
 
 
