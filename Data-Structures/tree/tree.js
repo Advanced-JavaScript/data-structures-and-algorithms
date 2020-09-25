@@ -58,6 +58,27 @@ class BinaryTree {
     return max;
   }
 
+  breadthFirst(){
+    const result =this.root.value?[this.root.value]:[];
+    const _BFT=(arr)=>{
+      let temp = [];
+      arr.forEach(node => {
+        if(node.left){
+          temp.push(node.left);
+          result.push(node.left.value);
+        }
+        if(node.right){
+          temp.push(node.right);
+          result.push(node.right.value);
+        }
+        
+      });
+      if(temp.length>0) _BFT(temp);
+    };
+    _BFT([this.root]);
+    return result;
+  }
+
 }
 
 class BinarySearchTree extends BinaryTree {
