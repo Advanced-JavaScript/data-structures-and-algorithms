@@ -47,6 +47,12 @@ describe('Binary Tree', ()=> {
     let postOrderOutput = tree.postOrder();
     expect(postOrderOutput).toEqual(expected);
   }); 
+
+  it('should return the maximum value of a binary tree', () => {
+    let max = tree.findMaximumValue();
+    expect(max).toEqual(9);
+    expect(max).not.toEqual(8);
+  });
 });
 
 describe('binary search tree', () => {
@@ -102,4 +108,11 @@ describe('binary search tree', () => {
   it('can perform a post-order traversal', () => {
     expect(binarySearchTree.postOrder()).toEqual([2, 3, 7, 8, 5, 4]);
   });
+  it('should return the maximum value of a binary search tree', () => {
+    let sMax = binarySearchTree.findMaximumValue();
+    expect(sMax).toEqual(8);
+    expect(sMax).not.toEqual(7);
+  });
+
+  
 });
