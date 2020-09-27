@@ -46,7 +46,7 @@ class BinaryTree {
     _traverse(this.root);
     return output;
   }
-
+  // Find the maximum value in a tree
   findMaximumValue(){
     let max = this.root.value;
     const _max = (node) => {
