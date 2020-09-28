@@ -1,4 +1,4 @@
-# Stacks and Queues
+# Tree
 
 ## Challenge
 
