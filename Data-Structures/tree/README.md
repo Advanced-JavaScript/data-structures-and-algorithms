@@ -45,6 +45,7 @@ It also has a method named contains that accepts a value, and returns a boolean 
 - contains(): O(h), where h = tree height (worst case O(n))
 
 - findMaximumValue(): O(n)
+- breadthFirstOrder(): O(n)
 
 
 ## Whiteboard
@@ -54,3 +55,7 @@ It also has a method named contains that accepts a value, and returns a boolean 
 - findMaximumValue method
 
 ![](../../assets/maxTree.JPG)
+
+- breadthFirst method
+
+![](../../assets/breadthFirstOrder.JPG)

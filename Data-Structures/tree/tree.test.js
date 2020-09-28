@@ -32,7 +32,6 @@ describe('Binary Tree', ()=> {
   it('preOrder()', ()=> {
     let expected = [1, 2, 6, 7, 8, 9 ,3, 4, 5];
     let preOrderOutput = tree.preOrder();
-    console.log('preOrderOutput >> ',preOrderOutput);
     expect(preOrderOutput).toEqual(expected);
   });
 
@@ -52,6 +51,10 @@ describe('Binary Tree', ()=> {
     let max = tree.findMaximumValue();
     expect(max).toEqual(9);
     expect(max).not.toEqual(8);
+  });
+  it('should return the breadth first traversal of a tree', () => {
+    let bft = tree.breadthFirst();
+    expect(bft).toEqual([1,2,3,6,4,5,7,8,9]);
   });
 });
 
@@ -112,6 +115,10 @@ describe('binary search tree', () => {
     let sMax = binarySearchTree.findMaximumValue();
     expect(sMax).toEqual(8);
     expect(sMax).not.toEqual(7);
+  });
+  it('should return the breadth first traversal of a tree', () => {
+    let sMax = binarySearchTree.breadthFirst();
+    expect(sMax).toEqual([4, 3, 5, 2, 8, 7]);
   });
 
   
