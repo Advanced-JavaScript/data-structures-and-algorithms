@@ -62,7 +62,10 @@ class BinaryTree {
   }
 
   breadthFirst(){
-    const result =this.root.value?[this.root.value]:[];
+    if(!this.root){
+      return null;
+    }
+    const result =this.root.value ? [this.root.value] : [];
     const _BFT=(arr)=>{
       let temp = [];
       arr.forEach(node => {

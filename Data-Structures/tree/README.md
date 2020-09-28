@@ -56,6 +56,6 @@ It also has a method named contains that accepts a value, and returns a boolean 
 
 ![](../../assets/maxTree.JPG)
 
-- breadthFirstOrder method
+- breadthFirst method
 
 ![](../../assets/breadthFirstOrder.JPG)

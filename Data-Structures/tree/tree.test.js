@@ -116,6 +116,10 @@ describe('binary search tree', () => {
     expect(sMax).toEqual(8);
     expect(sMax).not.toEqual(7);
   });
+  it('should return the breadth first traversal of a tree', () => {
+    let sMax = binarySearchTree.breadthFirst();
+    expect(sMax).toEqual([4, 3, 5, 2, 8, 7]);
+  });
 
   
 });
