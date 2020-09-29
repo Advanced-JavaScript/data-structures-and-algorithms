@@ -46,8 +46,11 @@ class BinaryTree {
     _traverse(this.root);
     return output;
   }
-
+  // Find the maximum value in a tree
   findMaximumValue(){
+    if(!this.root){
+      return null;
+    }
     let max = this.root.value;
     const _max = (node) => {
       max =node.value>max ?node.value:max;
@@ -59,7 +62,10 @@ class BinaryTree {
   }
 
   breadthFirst(){
-    const result =this.root.value?[this.root.value]:[];
+    if(!this.root){
+      return null;
+    }
+    const result =this.root.value ? [this.root.value] : [];
     const _BFT=(arr)=>{
       let temp = [];
       arr.forEach(node => {
