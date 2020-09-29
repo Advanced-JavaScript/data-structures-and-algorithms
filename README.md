@@ -15,6 +15,8 @@ This repository contains the daily challenges of the 301, 401 courses.
 - [Queue with stacks](./code-challenges/queueWithStacks/README.md)
 - [Fifo Animal Shelter](./code-challenges/fifoAnimalShelter/README.md)
 - [Multi bracket validation](./code-challenges/multiBracketValidation/README.md)
+- [FizzBuzz-Tree](./code-challenges/fizzBuzzTree/README.md)
+
 
 ## Data Structures
 
