@@ -20,7 +20,6 @@ const fizzBuzzTree = tree => {
   } else if (current.value % 5 === 0) {
     current.value = 'Buzz';
   }
-
   if (current.left) {
     fizzBuzzTree(current.left);
   }

@@ -7,15 +7,18 @@ describe('`fizzBuzzTree` function', () => {
   it('should return `null` if the argument is not a tree', () => {
     expect(fizzBuzzTree(0)).toBeNull();
   });
+
   it('should return an empty tree if the root is empty', () => {
     const bt = new BinarySearchTree();
     expect(fizzBuzzTree(bt)).toEqual(bt);
   });
+
   it('should replace the root value with the right word if it is divisible by 3, 5, or both', () => {
     const bt = new BinarySearchTree();
     bt.add(15);
     expect(fizzBuzzTree(bt).root.value).toBe('FizzBuzz');
   });
+
   it('should replace values divisible by `3` with `Fizz`', () => {
     const bt = new BinarySearchTree();
     bt.add(9);
@@ -31,6 +34,7 @@ describe('`fizzBuzzTree` function', () => {
     expect(result.root.left.left.value).toBe('Fizz');
     expect(result.root.right.right.value).toBe('Fizz');
   });
+
   it('should replace values that can be divided by 5 with `Buzz`', () => {
     const bt = new BinarySearchTree();
     bt.add(5);
@@ -44,4 +48,5 @@ describe('`fizzBuzzTree` function', () => {
     expect(result.root.left.value).toBe('Buzz');
     expect(result.root.left.right.value).toBe('Buzz');
   });
+  
 });

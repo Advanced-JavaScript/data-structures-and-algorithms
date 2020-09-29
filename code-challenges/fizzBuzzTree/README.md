@@ -16,7 +16,6 @@ Create a new tree with the same structure as the original, but the values modifi
 
 following a preOrder traversal of the tree. On each node, the value of the node was examined to determine if it was divisible by 3, 5, or both. If it was, the value will be modified in-place with the appropriate word. If it was not, the traversal continued recursively on the left and right children of the node. 
 
-
 ## Solution
 
 ![](../../assets/fizzBuzz.JPG)
