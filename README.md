@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 
-This repository contains the daily challenges of the 301, 401 courses.
+This repository contains the daily challenges of the 401 course.
 
 # Documenation for 401 challenges
 
@@ -16,6 +16,7 @@ This repository contains the daily challenges of the 301, 401 courses.
 - [Fifo Animal Shelter](./code-challenges/fifoAnimalShelter/README.md)
 - [Multi bracket validation](./code-challenges/multiBracketValidation/README.md)
 - [FizzBuzz-Tree](./code-challenges/fizzBuzzTree/README.md)
+- [Insertion-Sort](./code-challenges/insertionSort/Blog.md)
 
 
 ## Data Structures
