@@ -17,6 +17,7 @@ This repository contains the daily challenges of the 401 course.
 - [Multi bracket validation](./code-challenges/multiBracketValidation/README.md)
 - [FizzBuzz-Tree](./code-challenges/fizzBuzzTree/README.md)
 - [Insertion-Sort](./code-challenges/insertionSort/Blog.md)
+- [Merge-Sort](./code-challenges/mergeSort/Blog.md)
 
 
 ## Data Structures
