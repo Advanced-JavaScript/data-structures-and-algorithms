@@ -24,8 +24,8 @@ describe('merge sort algorithm', () => {
     expect(isSorted(quickSort(arr))).toBeTruthy();
   });
   it('should return a sorted array with no changes', () => {
-    const arr = [1, 1, 2, 3, 4, 5, 99, 1000, 10021];
-    const array = [1, 1, 2, 3, 4, 5, 99, 1000, 10021];
+    const arr = [1, 1, 2, 3, 4, 5, 99, 1000];
+    const array = [1, 1, 2, 3, 4, 5, 99, 1000];
     expect(quickSort(arr)).toEqual(array);
   });
   it('should return a backwards-sorted array in sorted order', () => {

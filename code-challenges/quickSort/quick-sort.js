@@ -1,8 +1,10 @@
+'use strict';
+
 const quickSort = arr => {
   if (arr.length <= 1) {
     return arr;
   }
-    const pivot = arr.pop();
+  const pivot = arr.pop();
   
   const lessEq = [];
   const greater = [];

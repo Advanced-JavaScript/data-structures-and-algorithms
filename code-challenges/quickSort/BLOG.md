@@ -6,6 +6,8 @@ a function for quick sort that takes in an unsorted array and returns the array 
 
 ## Challenge Description
 
+Quick sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays.
+
 
 ## Approach & Efficiency
 

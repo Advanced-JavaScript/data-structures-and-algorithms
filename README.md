@@ -16,8 +16,9 @@ This repository contains the daily challenges of the 401 course.
 - [Fifo Animal Shelter](./code-challenges/fifoAnimalShelter/README.md)
 - [Multi bracket validation](./code-challenges/multiBracketValidation/README.md)
 - [FizzBuzz-Tree](./code-challenges/fizzBuzzTree/README.md)
-- [Insertion-Sort](./code-challenges/insertionSort/Blog.md)
-- [Merge-Sort](./code-challenges/mergeSort/Blog.md)
+- [Insertion-Sort](./code-challenges/insertionSort/BlOG.md)
+- [Merge-Sort](./code-challenges/mergeSort/BLOG.md)
+- [Quick-Sort](./code-challenges/quickSort/BlOG.md)
 
 
 ## Data Structures
