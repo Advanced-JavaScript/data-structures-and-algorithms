@@ -1,5 +1,8 @@
 'use strict';
-
+/**
+ * @function insertionSort to sort an array
+ * @param arr the input array
+ */
 const insertionSort = arr => {
   for (let i = 1; i < arr.length; i++) {
     const temp = arr[i];

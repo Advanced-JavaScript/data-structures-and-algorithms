@@ -11,7 +11,7 @@ describe('insertionSort algorithm', () => {
     const one = [1];
     expect(insertionSort(one)).toEqual(one);
   });
-  it('should sort a random unsorted array', () => {
+  it('should sort an unsorted array', () => {
     const isSorted = arr => {
       for (let i = 0; i < arr.length - 1; i++) {
         if (arr[i] > arr[i + 1]) {

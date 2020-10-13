@@ -24,11 +24,11 @@ describe('merge sort algorithm', () => {
     expect(isSorted(mergeSort(arr))).toBeTruthy();
   });
   it('should return a sorted array with no changes', () => {
-    const arr = [1, 1, 2, 3, 4, 5, 99, 1000, 10021];
+    const arr = [1, 1, 2, 3, 4, 5, 9, 10, 100];
     expect(mergeSort(arr)).toEqual(arr);
   });
   it('should return a backwards-sorted array in sorted order', () => {
-    const backwards = [12121, 1221, 99, 88, 77, 66, 44, 22, 1, 0.123];
+    const backwards = [1111, 111, 99, 88, 77, 66, 44, 22, 11, 0.123];
     expect(mergeSort(backwards)).toEqual(backwards.reverse());
   });
 });
