@@ -1,0 +1,37 @@
+'use strict';
+/**
+ * @class LinkedList to be the type for the buckets
+ * @class HashTable 
+ */
+const { LinkedList } = require('../linkedList/linked-list');
+
+class Hashtable {
+  constructor(size) {
+    this.size = size || 1024;
+    this.entries = new Array(size).fill(new LinkedList());
+  }
+
+  hash(key) {
+    let charArr = key.split('');
+    return charArr.reduce((p, n )=> {
+      return p + n.charCodeAt(0);
+    }, 0) * 599 % this.size;
+  }
+
+  add(key, value) {
+    const hashIndex = this.hash(key);
+    this.entries[hashIndex].append(value);
+  }
+
+  get(key) {
+    const index = this.hash(key);
+    return this.entries[index]  ? this.entries[index] : false;
+  }
+  contains(key) {
+    const hashIndex = this.hash(key);
+    return this.entries[hashIndex].print.length > 0 ? true : false;
+  }
+
+}
+  
+module.exports = Hashtable ;
