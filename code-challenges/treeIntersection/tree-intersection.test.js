@@ -1,6 +1,6 @@
 'use strict';
 
-const {Node, BinaryTree} = require('../../data-structures/tree/tree.js');
+const {Node, BinaryTree} = require('../../Data-Structures/tree/tree');
 
 const treeIntersection = require('./tree-intersection.js');
 
