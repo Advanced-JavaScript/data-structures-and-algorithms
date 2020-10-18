@@ -19,6 +19,7 @@ This repository contains the daily challenges of the 401 course.
 - [Insertion-Sort](./code-challenges/insertionSort/BlOG.md)
 - [Merge-Sort](./code-challenges/mergeSort/BLOG.md)
 - [Quick-Sort](./code-challenges/quickSort/BlOG.md)
+- [Repeated Word](./code-challenges/repeated-word/README.md)
 
 
 ## Data Structures
@@ -26,6 +27,7 @@ This repository contains the daily challenges of the 401 course.
 - [LinkedList](./Data-Structures/linkedList/README.md)
 - [Stacks&Queues](./Data-Structures/stacksAndQueues/README.md)
 - [Tree](./Data-Structures/tree/README.md)
+- [HashTable](./Data-Structures/hashtable/README.md)
 
 
 
