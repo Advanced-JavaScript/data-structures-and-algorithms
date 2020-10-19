@@ -3,26 +3,26 @@
 const { LinkedList } = require('../../Data-Structures/linkedList/linked-list');
 
 /**
- * @function repeatedWord
+ * @function repeatedWord returns first repeated word in a string
  * @param {*} str 
  */
 const repeatedWord = str => {
   const hashTable = Array(1024).fill(new LinkedList());
   const words = str.split(' ');
 
-  let result = null;
+  let repeatedword = null;
   for (let i = 0; i < words.length; i++) {
     const regex = /[a-z]+/gi;
     const word = words[i].toLowerCase().match(regex)[0];
     const index = hash(word);
     if (hashTable[index].includes(word)) {
-      result = word;
+      repeatedword = word;
       break;
     } else {
       hashTable[index].insert(word);
     }
   }
-  return result;
+  return repeatedword;
 };
 
 /**
