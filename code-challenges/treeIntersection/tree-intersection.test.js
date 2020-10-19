@@ -4,10 +4,6 @@ const {Node, BinaryTree} = require('../../Data-Structures/tree/tree');
 
 const treeIntersection = require('./tree-intersection.js');
 
-// ==================================================================
-// Sample Tree SetUp
-
-
 // Tree A
 const iNode = new Node (175);
 const hNode = new Node (125);
@@ -24,7 +20,6 @@ const aNode = new Node (150, bNode, cNode);
 const treeA = new BinaryTree(aNode);
 
 // Tree B
-
 const _kNode = new Node (500);
 const _jNode = new Node (4);
 const _iNode = new Node (175);
@@ -39,10 +34,8 @@ const _aNode = new Node (42, _bNode, _cNode);
 
 const treeB = new BinaryTree(_aNode);
 
-// ==================================================================
 
-
-it('should not return values that are found in only one of the provided trees', () => {
+it('should not return values that are found in only one of input trees', () => {
   expect(treeIntersection(treeA, treeB)).toEqual(expect.not.arrayContaining([42]));
   expect(treeIntersection(treeA, treeB)).toEqual(expect.not.arrayContaining([600]));
   expect(treeIntersection(treeA, treeB)).toEqual(expect.not.arrayContaining([15]));
