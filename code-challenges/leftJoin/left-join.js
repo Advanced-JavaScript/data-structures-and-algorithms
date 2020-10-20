@@ -1,5 +1,9 @@
 'use strict';
-
+/**
+ * @function leftJoin 
+ * @param {*} obj1 first input
+ * @param {*} obj2 second input
+ */
 function leftJoin(obj1, obj2){
   let returnArray = Object.entries(obj1);
   returnArray.forEach(array => {
@@ -9,8 +13,8 @@ function leftJoin(obj1, obj2){
     } else {
       array.push(null);
     }
-  })
+  });
   return returnArray;
-  }
+}
   
-module.exports = leftJoin
+module.exports = leftJoin;

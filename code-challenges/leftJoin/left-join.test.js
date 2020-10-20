@@ -2,8 +2,6 @@
 
 const leftJoin = require ('./left-join');
 
-// Sample Data
-
 let object1 = {
   'fond': 'enamored',
   'wrath': 'anger',
@@ -32,14 +30,14 @@ let object3 = {
 
 it('should perform a left join when two objects are provided', () => {
   expect(leftJoin(object1,object2)).toStrictEqual(
-  [
-    [ 'fond', 'enamored', 'averse' ],
-    [ 'wrath', 'anger', 'delight' ],
-    [ 'diligent', 'employed', 'idle' ],
-    [ 'outfit', 'garb', null ],
-    [ 'guide', 'usher', 'follow' ] 
-  ])
-})
+    [
+      [ 'fond', 'enamored', 'averse' ],
+      [ 'wrath', 'anger', 'delight' ],
+      [ 'diligent', 'employed', 'idle' ],
+      [ 'outfit', 'garb', null ],
+      [ 'guide', 'usher', 'follow' ] ,
+    ]);
+});
 
 it('should perform a left join when the first object contains more key value pairs than the second object provided', () => {
   expect(leftJoin(object3, object1)).toStrictEqual(
@@ -50,9 +48,9 @@ it('should perform a left join when the first object contains more key value pai
       [ 'guide', 'follow', 'usher' ],
       [ 'flow', 'jam', null ],
       [ 'stuff', 'empty', null ],
-      [ 'soft', 'hard', null ] 
-  ])
-})
+      [ 'soft', 'hard', null ], 
+    ]);
+});
 
 it('should perform a left join when the second object contains more key value pairs than the first object provided', () => {
   expect(leftJoin(object1, object3)).toStrictEqual(
@@ -61,6 +59,6 @@ it('should perform a left join when the second object contains more key value pa
       [ 'wrath', 'anger', 'delight' ],
       [ 'diligent', 'employed', 'idle' ],
       [ 'outfit', 'garb', null ],
-      [ 'guide', 'usher', 'follow' ] 
-  ])
-})
+      [ 'guide', 'usher', 'follow' ],
+    ]);
+});
