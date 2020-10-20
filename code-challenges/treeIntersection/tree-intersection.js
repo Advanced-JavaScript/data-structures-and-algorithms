@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const HashTable = require('../../Data-Structures/hashtable/hashtable');
 
@@ -11,16 +11,16 @@ function treeIntersection(tree1, tree2){
   
   tree1Array.forEach(val => {
     treeHash.add(val,val);
-  })
+  });
 
   tree2Array.forEach(val => {
     if(treeHash.contains(val)){
       returnArray.push(val);
     }
-  })
+  });
 
   return returnArray;
 
-};
+}
 
 module.exports = treeIntersection;
