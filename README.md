@@ -21,6 +21,7 @@ This repository contains the daily challenges of the 401 course.
 - [Quick-Sort](./code-challenges/quickSort/BlOG.md)
 - [Repeated Word](./code-challenges/repeatedWord/README.md)
 - [Tree Intersection](./code-challenges/treeIntersection/README.md)
+- [Left Join](./code-challenges/leftJoin/README.md)
 
 
 ## Data Structures
