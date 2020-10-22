@@ -30,6 +30,7 @@ This repository contains the daily challenges of the 401 course.
 - [Stacks&Queues](./Data-Structures/stacksAndQueues/README.md)
 - [Tree](./Data-Structures/tree/README.md)
 - [HashTable](./Data-Structures/hashtable/README.md)
+- [Graph](./Data-Structures/graph/README.md)
 
 
 
