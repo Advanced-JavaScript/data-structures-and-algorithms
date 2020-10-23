@@ -32,7 +32,6 @@ describe('Hashtable', () => {
     h.add(key, value);
     h.add(key, value);
     const result = h.get(key);
-    console.log('35', result);
     expect(result.head.next.value).toBe('value');
   });
   it('Successfully retrieve a value from a bucket within the hashtable with a collision ', () => {
