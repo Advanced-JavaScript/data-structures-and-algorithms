@@ -1,7 +1,7 @@
 const {Graph} = require('../../Data-Structures/graph/graph');
-const {Queue} = require('../../Data-Structures/stacksAndQueues/stacks-and-queues');
+const {Stack} = require('../../Data-Structures/stacksAndQueues/stacks-and-queues');
 
-class bfGraph extends Graph {
+class dfGraph extends Graph {
 
   constructor(){
   
@@ -9,17 +9,18 @@ class bfGraph extends Graph {
   
   }
 
-  breadthFirst(node) {
+  depthFirst(node) {
+
     if (node === undefined || node.value === undefined) {
       return null;
     }
-
-    const q = new Queue();
-    q.enqueue(node);
-
+  
+    const s = new Stack();
+    s.push(node);
+  
     const arr = [];
-    while (q.front !== null) {
-      const current = q.dequeue();
+    while (s.top !== null) {
+      const current = s.pop();
       if (arr.includes(current)) {
         continue;
       }
@@ -27,16 +28,16 @@ class bfGraph extends Graph {
       const n = this.getNeighbors(current);
       for (let i = 0; i < n.length; i++) {
         if (!arr.includes(n[i].node)) {
-          q.enqueue(n[i].node);
+          s.push(n[i].node);
         }
       }
     }
     console.log(arr);
     return arr;
+   
   }
- 
   
 }
   
-module.exports = bfGraph;
+module.exports = dfGraph;
   
