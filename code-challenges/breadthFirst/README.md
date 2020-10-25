@@ -13,4 +13,5 @@ Write a breadth-first traversal method that accepts a starting node. Without uti
 I declared a new queue and a new array, then enqueued the input value, checked if the queue front value is not null then declare a current value that takes the front of the queue, then add the current to the array declared bfore, I got the neighbors of the node and for each neighbor I checked if the array has the same value then I enqueued it, then I returned the value of the array.
 
 ## Solution
+
 ![](../../assets/breadthFirst.JPG)

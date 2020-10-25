@@ -1,8 +1,8 @@
+'use strict';
+
 const {Node} = require('../../Data-Structures/stacksAndQueues/stacks-and-queues');
 const bfGraph = require('./breadth-first');
 const log = jest.spyOn(global.console, 'log').mockImplementation(() => {});
-
-// Test Graph Components
 
 let pandora = new Node('Pandora');
 let arendelle = new Node('Arendelle');
