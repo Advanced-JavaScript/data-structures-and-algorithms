@@ -1,12 +1,12 @@
+'use strict';
+
 const {Graph} = require('../../Data-Structures/graph/graph');
 const {Queue} = require('../../Data-Structures/stacksAndQueues/stacks-and-queues');
 
 class bfGraph extends Graph {
 
   constructor(){
-  
     super();
-  
   }
 
   breadthFirst(node) {
@@ -34,7 +34,6 @@ class bfGraph extends Graph {
     console.log(arr);
     return arr;
   }
- 
   
 }
   
