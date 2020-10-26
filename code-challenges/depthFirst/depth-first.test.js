@@ -1,3 +1,5 @@
+'use strict';
+
 const {Node} = require('../../Data-Structures/stacksAndQueues/stacks-and-queues');
 const dfGraph = require('./depth-first');
 
@@ -37,5 +39,5 @@ it ('Should return the value of all nodes in the graph in the depth first order 
   let result = graph.depthFirst(a);
   expect(log).toHaveBeenCalledWith(result);
 
-    log.mockClear();
-})
+  log.mockClear();
+});
