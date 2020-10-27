@@ -1,8 +1,10 @@
+'use strict';
+
 const { getEdges } = require('./get-edge');
 const { Graph } = require('../../Data-Structures/graph/graph');
 
 describe('`getEdges` function', () => {
-  it('should give a falsy response to a one-node graph argument', () => {
+  it('should give a false response to a one-node graph argument', () => {
     const graph = new Graph();
 
     const a = graph.addNode(1);
@@ -14,7 +16,7 @@ describe('`getEdges` function', () => {
     const expected = [false, 0];
     expect(result).toEqual(expected);
   });
-  it('should give a falsy response to a non-graph argument', () => {
+  it('should give a false response to a non-graph argument', () => {
     const graph = new Graph();
 
     const a = graph.addNode(1);
@@ -27,7 +29,7 @@ describe('`getEdges` function', () => {
     expect(result).toEqual(expected);
   });
 
-  it('should give a falsy response to an empty array argument', () => {
+  it('should give a false response to an empty array argument', () => {
     const graph = new Graph();
     const result = getEdges(graph, []);
     const expected = [false, 0];
