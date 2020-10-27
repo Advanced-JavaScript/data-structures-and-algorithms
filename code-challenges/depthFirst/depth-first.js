@@ -4,7 +4,6 @@ const {Graph} = require('../../Data-Structures/graph/graph');
 const {Stack} = require('../../Data-Structures/stacksAndQueues/stacks-and-queues');
 
 class dfGraph extends Graph {
-
   constructor(){
     super();
   }

@@ -34,6 +34,7 @@ it ('Should return the value of all nodes in the graph in the depth first order 
   graph.addUndirectedEdge(c, f, 1);
   graph.addUndirectedEdge(d, f, 1);
   graph.addUndirectedEdge(e, f, 1);
+  
   expect(graph.size()).toBe(6);
   
   let result = graph.depthFirst(a);

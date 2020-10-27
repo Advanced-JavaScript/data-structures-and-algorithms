@@ -1,3 +1,5 @@
+'use strict';
+
 const { getEdges } = require('./get-edge');
 const { Graph } = require('../../Data-Structures/graph/graph');
 
