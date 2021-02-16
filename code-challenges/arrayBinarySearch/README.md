@@ -2,7 +2,7 @@
 
 # Challenge Summary
 
-Binary search in a sorted 1D array
+Binary search in a sorted 1D array.
 
 ## Challenge Description
 
