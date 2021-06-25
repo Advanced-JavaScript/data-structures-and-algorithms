@@ -38,4 +38,21 @@ class bfGraph extends Graph {
 }
   
 module.exports = bfGraph;
+
+// function traverseTree(t) { 
+//     if(!t) return []; 
+     
+//     let output = [];
+//     let queue = [t];
+    
+//     while(queue.length){
+//         let current = queue.shift();
+//         output.push(current.value);
+        
+//         if(current.left) queue.push(current.left);
+//         if(current.right) queue.push(current.right); 
+//     }
+    
+//     return output;
+// }
   
